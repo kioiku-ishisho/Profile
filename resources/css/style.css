@@ -1,0 +1,125 @@
+* {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+header {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    background-color: transparent;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    background-color: transparent;
+}
+
+header nav p {
+    width: 100%;
+    margin: 0 10px;
+}
+
+p,a,h1,h2,h3,h4,h5,h6,strong {
+    background-color: transparent;
+}
+
+main {
+    margin-top: 70px;
+    padding-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../resources/image/DSC05944.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+main h1,p {
+    background-color: transparent;
+    opacity: 1;
+}
+
+
+.bio {
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio h2, .bio p {
+    color: rgb(55, 55, 55);
+    text-align: left;;
+}
+
+.bio .left {
+    width: 60%;
+    background-color: transparent;
+    margin: 10px 20px;
+}
+
+.bio .right {
+    width: 40%;
+    max-width: 250px;
+    height:80%;
+    margin: 5%;
+}
+
+.bio .right img {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+footer a, footer p {
+    color: rgb(194, 194, 194);
+}
