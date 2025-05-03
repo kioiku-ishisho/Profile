@@ -111,6 +111,42 @@ main h1,p {
     height: 100%;
 }
 
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.work .container {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.work-item {
+    width: 33%;
+    margin: 20px 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-item img {
+    width: 100%;
+}
+
+.work-item h3 {
+    text-align: center;
+}
+
+.work-item p {
+    margin: 0 5%;
+}
+
 footer {
     display: flex;
     flex-direction: row;

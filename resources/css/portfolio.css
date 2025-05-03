@@ -105,6 +105,9 @@ main h1,p {
     text-align: center;
 }
 
+.work-item p {
+    margin: 0 5%;
+}
 
 .certification-item {
     width: 33%;
